@@ -1,8 +1,3 @@
-apolm01-016@rootap-9048-900-0044:~$ mysql -u campus -p
-Enter password: 
-ERROR 1045 (28000): Access denied for user 'campus'@'localhost' (using password: YES)
-apolm01-016@rootap-9048-900-0044:~$ mysql -u campus -p
-Enter password: 
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 10
 Server version: 8.0.33-0ubuntu0.22.04.2 (Ubuntu)
@@ -195,3 +190,4 @@ mysql> DESCRIBE campers;
 | fechaNac       | date        | YES  |     | NULL    |                |
 | idReg          | int         | YES  | MUL | NULL    |                |
 +----------------+-------------+------+-----+---------+----------------+
+5 rows in set (0,00 sec)
