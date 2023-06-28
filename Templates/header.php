@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-md">
                     <header class="py-3">
-                        <h3 class="text-center">Document</h3>
+                        <h3 class="text-center">Welcome</h3>
                     </header>
                 </div>
             </div>

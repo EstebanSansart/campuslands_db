@@ -15,12 +15,12 @@
                         <input type="text" class="form-control" name="txtNombre" autofocus required>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Edad</label>
-                        <input type="number" class="form-control" name="txtEdad" required>
+                        <label class="form-label">Apellido</label>
+                        <input type="text" class="form-control" name="txtApellido" required>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Signo</label>
-                        <input type="text" class="form-control" name="txtSigno" required>
+                        <label class="form-label">Fecha Nac</label>
+                        <input type="date" class="form-control" name="txtFecha" required>
                     </div>
                     <div class="d-grid">
                         <input type="hidden" name="oculto" value="1">
@@ -99,10 +99,11 @@
                         <table class="table align-middle">
                             <thead>
                                 <tr>
-                                    <th scope="col">#</th>
+                                    <th scope="col">idCamper</th>
                                     <th scope="col">Nombre</th>
-                                    <th scope="col">Edad</th>
-                                    <th scope="col">Signo</th>
+                                    <th scope="col">Apellido</th>
+                                    <th scope="col">Fecha Nac</th>
+                                    <th scope="col">idReg</th>
                                     <th scope="col" colspan="2">Opciones</th>
                                 </tr>
                             </thead>
@@ -115,8 +116,8 @@
                                 <tr class="">
                                     <td scope="row"><?php echo $dato -> codigo; ?></td>
                                     <td><?php echo $dato -> nombre; ?></td>
-                                    <td><?php echo $dato -> edad; ?></td>
-                                    <td><?php echo $dato -> signo; ?></td>
+                                    <td><?php echo $dato -> apellido; ?></td>
+                                    <td><?php echo $dato -> fecha; ?></td>
                                     <td><a class="text-primary" href="editar.php?codigo=<?php echo $dato -> codigo; ?>"><i class="bi bi-pencil-square"></i></a></td>
                                     <td><a onclick="return confirm('¿Estás seguro de eliminar los datos del usuario?')" class="text-danger" href="eliminar.php?codigo=<?php echo $dato -> codigo; ?>"><i class="bi bi-trash-fill"></i></a></td>
                                 </tr>
