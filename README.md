@@ -1,3 +1,6 @@
+APARECEN LAS CREDENCIALES DE KONNY EN LOS DOS PRIMEROS COMMITS PORQUE OLVIDÉ CERRAR SUS CREDENCIALES DE GIT GRAPH.
+
+
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 10
 Server version: 8.0.33-0ubuntu0.22.04.2 (Ubuntu)
